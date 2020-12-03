@@ -156,3 +156,179 @@ investigation:                                       |  investigation:
 ```
 
 ⚠️ В отчет также необходимо добавить общий график с результатами всех исследований. ⚠️
+
+```
+Running main() from gtest_main.cc
+investigation:
+  travel_variant: direct
+  experiments:
+- experiment: 
+      number: 1
+      input_data:
+        buffer_size: 32KB
+      results:
+        duration: 1.493ms
+- experiment: 
+      number: 2
+      input_data:
+        buffer_size: 64KB
+      results:
+        duration: 2.968ms
+- experiment: 
+      number: 3
+      input_data:
+        buffer_size: 128KB
+      results:
+        duration: 6.321ms
+- experiment: 
+      number: 4
+      input_data:
+        buffer_size: 256KB
+      results:
+        duration: 11.842ms
+- experiment: 
+      number: 5
+      input_data:
+        buffer_size: 512KB
+      results:
+        duration: 21.827ms
+- experiment: 
+      number: 6
+      input_data:
+        buffer_size: 1024KB
+      results:
+        duration: 43.826ms
+- experiment: 
+      number: 7
+      input_data:
+        buffer_size: 2048KB
+      results:
+        duration: 87.729ms
+- experiment: 
+      number: 8
+      input_data:
+        buffer_size: 4096KB
+      results:
+        duration: 173.845ms
+- experiment: 
+      number: 9
+      input_data:
+        buffer_size: 4608KB
+      results:
+        duration: 197.051ms
+investigation:
+  travel_variant: reverse
+  experiments:
+- experiment: 
+      number: 1
+      input_data:
+        buffer_size: 32KB
+      results:
+        duration: 1.173ms
+- experiment: 
+      number: 2
+      input_data:
+        buffer_size: 64KB
+      results:
+        duration: 2.465ms
+- experiment: 
+      number: 3
+      input_data:
+        buffer_size: 128KB
+      results:
+        duration: 4.694ms
+- experiment: 
+      number: 4
+      input_data:
+        buffer_size: 256KB
+      results:
+        duration: 10.095ms
+- experiment: 
+      number: 5
+      input_data:
+        buffer_size: 512KB
+      results:
+        duration: 19.721ms
+- experiment: 
+      number: 6
+      input_data:
+        buffer_size: 1024KB
+      results:
+        duration: 41.233ms
+- experiment: 
+      number: 7
+      input_data:
+        buffer_size: 2048KB
+      results:
+        duration: 80.552ms
+- experiment: 
+      number: 8
+      input_data:
+        buffer_size: 4096KB
+      results:
+        duration: 155.956ms
+- experiment: 
+      number: 9
+      input_data:
+        buffer_size: 4608KB
+      results:
+        duration: 189.25ms
+investigation:
+  travel_variant: random
+  experiments:
+- experiment: 
+      number: 1
+      input_data:
+        buffer_size: 32KB
+      results:
+        duration: 13.523ms
+- experiment: 
+      number: 2
+      input_data:
+        buffer_size: 64KB
+      results:
+        duration: 25.274ms
+- experiment: 
+      number: 3
+      input_data:
+        buffer_size: 128KB
+      results:
+        duration: 48.811ms
+- experiment: 
+      number: 4
+      input_data:
+        buffer_size: 256KB
+      results:
+        duration: 98.513ms
+- experiment: 
+      number: 5
+      input_data:
+        buffer_size: 512KB
+      results:
+        duration: 202.517ms
+- experiment: 
+      number: 6
+      input_data:
+        buffer_size: 1024KB
+      results:
+        duration: 419.504ms
+- experiment: 
+      number: 7
+      input_data:
+        buffer_size: 2048KB
+      results:
+        duration: 1000.49ms
+- experiment: 
+      number: 8
+      input_data:
+        buffer_size: 4096KB
+      results:
+        duration: 2129.24ms
+- experiment: 
+      number: 9
+      input_data:
+        buffer_size: 4608KB
+      results:
+        duration: 2426.16ms
+
+```
