@@ -332,3 +332,7 @@ investigation:
         duration: 2426.16ms
 
 ```
+![Results](graf.jpg)
+красный - рандом
+желтый - прямой
+зеленый - обратный
