@@ -1,7 +1,7 @@
 // Copyright 2020 Anastasiya Osipova anstasiyaosipova2001@gmail.com
 
 #include <header.hpp>
-include <algorithm>
+#include <algorithm>
 #include <random>
 
 Exploration::Exploration()
