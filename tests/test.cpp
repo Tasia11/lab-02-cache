@@ -3,7 +3,7 @@
 #include <gtest/gtest.h>
 
 TEST(Example, EmptyTest) {
-    Exploration cache;
+  Exploration cache;
   cache.Direct();
   std::cout << cache;
   cache.Reverse();
