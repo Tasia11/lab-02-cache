@@ -1,6 +1,7 @@
 // Copyright 2020 Anastasiya Osipova anstasiyaosipova2001@gmail.com
 
 #include <gtest/gtest.h>
+#include <header.hpp>
 
 TEST(Example, EmptyTest) {
   Exploration cache;
