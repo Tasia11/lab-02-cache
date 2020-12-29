@@ -37,7 +37,7 @@ void Exploration::Direct()
       }
     }
     clock_t end_travel = clock();
-    time.push_back(static_cast<double>(end_travel - start_travel) / CLOCKS_PER_SEC * 1000);
+    time.push_back(static_cast<double>(end_travel-start_travel)/CLOCKS_PER_SEC * 1000);
     delete[] arr;
     ++k;
   }
@@ -67,7 +67,7 @@ void Exploration::Reverse()
       }
     }
     clock_t end_travel = clock();
-    time.push_back(static_cast<double>(end_travel - start_travel) / CLOCKS_PER_SEC * 1000);
+    time.push_back(static_cast<double>(end_travel-start_travel)/CLOCKS_PER_SEC * 1000);
     delete[] arr;
     ++k;
   }
@@ -101,7 +101,7 @@ void Exploration::Random()
       }
     }
     clock_t end_travel = clock();
-    time.push_back(static_cast<double>(end_travel - start_travel) / CLOCKS_PER_SEC * 1000);
+    time.push_back(static_cast<double>(end_travel-start_travel)/CLOCKS_PER_SEC * 1000);
     delete[] arr;
     ++k;
   }
