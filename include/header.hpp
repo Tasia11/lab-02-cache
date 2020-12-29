@@ -1,7 +1,7 @@
 // Copyright 2020 Anastasiya Osipova anstasiyaosipova2001@gmail.com
 
-#ifndef INCLUDE_CACHE_EXPLORATION_HPP_
-#define INCLUDE_CACHE_EXPLORATION_HPP_
+#ifndef INCLUDE_HEADER_HPP_
+#define INCLUDE_HEADER_HPP_
 
 #include <ctime>
 #include <iostream>
@@ -24,5 +24,5 @@ class Exploration {
   std::vector<double> time;
 };
 
-#endif  // INCLUDE_CACHE_EXPLORATION_HPP_
+#endif  // INCLUDE_HEADER_HPP_
 
